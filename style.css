@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
 
 body {
-    background: #222;
+    background-image: url('background.webp'); /* Path to your image */
+    background-size: cover; /* Scale image to cover entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    flex-direction: column;
-    font-family: 'Orbitron', sans-serif;
-    margin: 0;
 }
-
 .keys {
     display: flex;
     justify-content: center;
